@@ -1,0 +1,35 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+
+  &_modal {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    background-color: white;
+    padding: 35px 25px;
+    border-radius: 10px;
+
+    p {
+      text-align: center;
+      font-size: calc(0.5em + 1vh);
+    }
+
+    &_button_wrapper {
+      margin: 0 auto;
+    }
+    &_button {
+      font-size: calc(0.4em + 1vh);
+      padding: 5px 30px;
+    }
+  }
+}

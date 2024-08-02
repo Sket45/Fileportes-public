@@ -1,0 +1,293 @@
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    
+    padding: 50px 50px;
+ 
+    background-color: #FFFCF5;
+
+    &_wrapper {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFCF5;
+    
+       
+       max-width: 1600px;
+
+       h1, h2, p {
+        margin: 0;
+       }
+
+
+       &_header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+            h1 {
+                font-size: calc(0.3em + 1vh);
+                color: rgb(152 53 58);
+
+            }
+            h2 {
+
+                font-size: calc(1.25em + 1vh);
+
+            }
+            p {
+                font-size: calc(0.25em + 1vh);
+                max-width: 885px;
+                text-align: center;
+                padding: 15px 0 50px 0;
+                
+            }
+       }
+
+
+       &_services {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+        gap: 3%;
+    
+
+
+     
+            &_card {
+                
+                display: flex;
+                flex-direction: column;
+            
+                min-width: 250px;
+            
+                max-width: 31.3%;
+                
+
+                > div {
+                    position: relative;
+                    min-height: 250px;
+                    height: 20vh;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: 50% 25%;
+                    overflow: hidden;
+
+                    &::before{
+                        content:'';
+                        position: absolute;
+                        top:0 ;
+                        left: 0;
+                        transition: all 0.25s ease-in-out;
+                        width: 100%;
+                        height: 100%;
+                        backdrop-filter: blur(0px);
+                        background-color: rgba(#000000, 0)
+                    }
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        top: -9%;
+                        right: 0;
+                        bottom: 0;
+                        margin: auto;
+                        width: 25%;
+                        height: 25%;
+                        filter: invert(100%);
+                        opacity: 0;
+
+                        transition: all 0.5s ease-in-out;
+
+                    }
+                }
+
+                h1 {
+
+                    color: rgb(152 53 58);
+                    font-size: calc(0.7em + 1vh);
+                    font-weight: 400;
+                    padding: 20px 0;
+                    
+
+                }
+
+                p {
+                    font-size: calc(0.2em + 1vh);
+                    padding-bottom: 50px;
+
+                }
+
+       
+
+                &:hover {
+
+                    cursor: pointer;
+                    div {
+                        position: relative;
+
+                        &::after {
+                            opacity: 1;
+                           
+                            
+                            transition: all 0.25s ease-in-out;
+                            animation: tilt-shaking 0.25s ease-in-out 0.25s ;
+                        }
+                        &::before {
+                            content: '';
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            backdrop-filter: blur(5px);
+                            background-color: rgba(#000000, 0.3);
+
+
+                            transition: all 0.25s ease-in-out;
+                        }
+                    }
+
+                    h1 {
+
+                    }
+                    p {
+
+                    }
+                }
+            }
+
+        }
+
+       
+
+    }
+
+    #lMovers {
+        background-image: url(../public/images/man_van.png);  
+
+        &::after {
+            content: url(../public/images/svg/house_removal.svg);
+        }
+    }
+    #ldMovers {
+        background-image: url(../public/images/long_distance_movers.jpg);
+        
+        
+        &::after {
+            content: url(../public/images/svg/truck.svg);
+            width: 30%;
+        }
+    }
+    #oMovers {
+        background-image: url(../public/images/office_relocation.png);
+    
+        &::after {
+            content: url(../public/images/svg/office_removals.svg);
+        }
+    }
+    #lPlatform {
+        background-image: url(../public/images/Lifting_platform.png);
+    
+        &::after {
+            content: url(../public/images/svg/lifting_truck.svg);
+        }
+    }
+    #Packing {
+        background-image: url(../public/images/packing.png);
+    
+        &::after {
+            content: url(../public/images/svg/packaged_box.svg);
+        }
+    }
+    #Storage {
+        background-image: url(../public/images/storage_unit.png);
+    
+        &::after {
+            content: url(../public/images/svg/storage.svg);
+        }
+    }
+    #Cleaning {
+        background-image: url(../public/images/cleaning.png);
+        &::after {
+            content: url(../public/images/svg/cleaning.svg);
+        }
+    }
+    #Recycling {
+        background-image: url(../public/images/recycling.png);
+        &::after {
+            content: url(../public/images/svg/recycle.svg);
+        }
+    }
+    #Budget {
+        background-image: url(../public/images/budget.png);
+        &::after {
+            content: url(../public/images/svg/coin.svg);
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 1041px) {
+
+    .container {
+
+
+
+        &_wrapper {
+
+            display: flex;
+          
+        }
+
+        &_wrapper_services_card {
+            
+            
+           max-width: 48.5%;
+         
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 708px) {
+
+    .container {
+
+
+
+        &_wrapper {
+
+            display: flex;
+          
+        }
+
+        &_wrapper_services_card {
+            
+            
+           max-width: 100%;
+       
+           text-align: center;
+         
+        }
+    }
+    
+}
+
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(8deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-8deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+ 

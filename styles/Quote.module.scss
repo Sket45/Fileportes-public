@@ -1,0 +1,96 @@
+.Quote {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+
+    div > h1 {
+            
+        text-align: center;
+    
+    }
+    
+    div > h2 {
+        font-weight: 400;
+        font-size: 1rem;
+        width: 50vw;
+        text-align: center;
+    }
+
+
+
+
+
+    &_Container {
+        
+        text-align: center;
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            text-align: start;
+            justify-content: center;
+            gap: 1vh;
+            margin-bottom: 1vh;
+            
+
+            > div {
+                display: flex;
+
+                min-width: 30vw;
+                flex-direction: column;
+                gap: 1vh;
+
+                >input::focus-visible {
+                    outline: none;
+                }
+            }
+
+
+            
+            div > input {
+                display: flex;
+                flex-direction: column;
+                height: 3vh;
+                width: 100%;
+                padding: 22.5px 10px;
+                font-size: 1rem;
+                border-radius: 5px;
+
+                &:focus-visible{
+                    outline: none;
+                }
+            }      
+        }
+    }
+
+    &_location_container > div, &_credentials, &_address, &_contact {
+        display: flex;
+        flex-direction: row !important;
+        gap: 1vh;
+        
+     > * {
+        width: 100%;
+     }
+    }
+
+    &_location_container > span {
+       text-align: center;
+    }
+    
+    &_location {
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+    
+    &_radio {
+        margin: auto;
+    }
+
+
+}
+

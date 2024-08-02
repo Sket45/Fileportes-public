@@ -1,0 +1,185 @@
+{
+  "language": {
+    "gb": "Anglès",
+    "es": "Espanyol",
+    "esCT": "Català"
+  },
+  "navBar": {
+    "div": "Segueix-nos a",
+    "office": "Oficina",
+    "button": "Pregunta'ns el que vulguis!"
+  },
+  "aboutUs": {
+    "h1": "La Nostra Història",
+    "h2": "Sobre Nosaltres",
+    "p1": "Som una empresa jove, amb més de 10 anys d'experiència i comptem amb un equip altament qualificat per a la reubicació de llars, particulars i empreses. Oferim serveis integrals de mudances i embalatge per a llars i empreses amb l'objectiu de superar les expectatives dels clients.",
+    "p2": "Ens encarreguem de mudances d'apartaments, condominis, cases, negocis i tot el que hi ha enmig, des de molt petit fins a molt gran. Ja sigui mudar-se al carrer del costat, a través del país o a una nova llar o edifici comercial, estem aquí per ajudar a gestionar l'estrès de la mudança. Col·laborant amb nosaltres, no has de preocupar-te per res, ¡ens en fem càrrec!"
+  },
+  "contactUs": {
+    "basePage": "Posa't en Contacte",
+    "anyPage": "Contacta'ns",
+    "mainPage": "Demaneu un pressupost gratuït ara!",
+    "p": "Pots posar-te en contacte amb nosaltres de qualsevol manera que et resulti convenient. Estem disponibles les 24 hores del dia, els 7 dies de la setmana via correu electrònic. També pots utilitzar un formulari de contacte ràpid a continuació o trucar-nos personalment.",
+    "service": "Servei",
+    "fName": "Nom",
+    "lName": "Cognom",
+    "eMail": "Correu electrònic",
+    "phone": "Telèfon",
+    "message": "Missatge",
+    "agree": "Estic d'acord amb els ",
+    "TC": "termes i condicions",
+    "socials": "Xarxes Socials",
+    "button": "Enviar",
+    "budget": "Contacta'ns i et donarem una visita gratuïta i sense compromís per avaluar el servei.",
+    "lPlatform": "Si us plau, proporciona detalls del que necessita ser aixecat en el camp de missatge a continuació.",
+    "Packing": "Les nostres solucions d'embalatge són assequibles per a tots els nostres clients. Permet un enfocament d'embalatge totalment segur i professional abans que comenci el procés de mudança.",
+    "Storage": "Les nostres instal·lacions d'emmagatzematge estan dissenyades expertament per protegir la teva propietat contra tot, des de focs i robatoris fins a polls de llit i danys per aigua.",
+    "Cleaning": "Realitzem desallotjament de brossa i mobles antics, etc. També comptem amb personal de neteja exhaustiva per contractar i preparar per a la venda i lloguer.",
+    "Recycling": "Treballem amb empreses de reciclatge, per a la destrucció documental d'empreses i individus.",
+    "includeP": "Incloure Servei d'Embalatge",
+    "from": "De",
+    "to": "A",
+    "postcode": "Codi postal...",
+    "location": "Ubicació;"
+  },
+  "main": {
+    "h1": "Treballadors Experimentats",
+    "p1": "Oferim serveis de mudances professionals les 24 hores del dia, els 7 dies de la setmana. Significa que sempre pots confiar en nosaltres, especialment quan necessitis serveis de mudança urgents.",
+    "h2": "Mudances Nacionals i Internacionals",
+    "p2": "Transferències individuals o compartides arreu d'Espanya, Europa i Amèrica del Sud.",
+    "h3": "Resposta Ràpida",
+    "p3": "Cada client que contracta serveis a la nostra empresa rep un suport informatiu complet sobre l'estat de la seva mudança, que s'actualitza regularment.",
+    "h4": "Conductors amb Autorització de Seguretat",
+    "p4": "Contractem conductors dedicats, capacitats i amb autorització de seguretat per ajudar-te a organitzar la teva mudança a qualsevol lloc d'Europa en qualsevol moment, dia o nit.",
+    "info": {
+      "h1": "El Que Fem",
+      "h2": "Els Nostres Serveis",
+      "p": "Som una empresa jove, amb més de 10 anys d'experiència i tenim un equip altament qualificat per a la reubicació de llars, particulars y empreses.",
+      "l1": "Mudances Locals",
+      "l2": "Mudances de Llarga Distància",
+      "l3": "Mudances d'Oficina",
+      "l4": "Embalatge",
+      "button": "Veure Tots els Serveis"
+    },
+    "reviews": {
+      "h1": "El Que la Gent Diu",
+      "h2": "Resenyes",
+      "span": "¡Valorem els teus comentaris!"
+    },
+    "contact": {
+      "h1": "Vols parlar?",
+      "h2": "Si us plau truca'ns",
+      "p": "Necessites mudar-te d'una casa a una altra?",
+      "p2": "¡Estem aquí per ajudar-te!",
+      "div": "Formulari de Contacte"
+    },
+    "smallAbout": {
+      "h1": "Empresa de mudances fiable amb més de 10 anys d'experiència",
+      "p": "Amb una dècada d'experiència, oferim serveis integrals d'embalatge i mudança dissenyats per superar les vostres expectatives. Trieu-nos per a una experiència de mudança eficient i sense estrès."
+    }
+  },
+  "navBarLinks": {
+    "l1": "Inici",
+    "l2": "Serveis",
+    "l3": "Tarifes",
+    "l4": "Contactes"
+  },
+  "navHeader": {
+    "services": {
+      "h1": "Solucions de Mudança",
+      "h2": "Serveis"
+    },
+    "rates": {
+      "h1": "Preus",
+      "h2": "Les Nostres Tarifes"
+    },
+    "contacts": {
+      "h1": "Contacta'ns",
+      "h2": "Contactes"
+    }
+  },
+  "quoteHead": {
+    "h1": "100% Preu Baix",
+    "h2": "Garantit",
+    "p": "Com a empresa de mudances fiable, oferim preus 100% assequibles als nostres serveis de mudances privades i comercials.",
+    "div": "Obtén un Pressupost Instantani",
+    "p1": "Poseu-vos en contacte amb nosaltres avui per obtenir un pressupost gratuït!"
+  },
+  "rates": {
+    "h1": "Això de Mudances Simples i Portes",
+    "p1": "Obtenir un pressupost de mudança mai ha estat tan fàcil! Preus senzills i fàcils d'entendre. Simplement contacteu-nos, proporcioneu informació bàsica sobre la vostra mudança i feu clic al botó “Enviar”. Un dels nostres professionals de mudances es posarà en contacte amb vostè i concertarà una cita sense cap cost!",
+    "p2": "No és cap secret que mudar-se a una casa nova pot ser car, especialment quan està involucrada una empresa de mudances professional. No obstant això, la nostra política de preus ho desmenteix, ja que creiem que la mudança hauria de ser assequible per a tothom.",
+    "th1": "OPeraris",
+    "th2": "Camió",
+    "th3": "Tarifa per Hora",
+    "th4": "Hores Mínimes",
+    "thMin": "Mínim 3 Hores",
+    "thNoMin": "Sense Mínim",
+    "h2": "Els nostres preus per hora no inclouen material d'embalatge.",
+    "tax": "+ IVA"
+  },
+  "services": {
+    "header": {
+      "h1": "El Que Fem",
+      "h2": "Els Nostres Serveis",
+      "p": "A FilePortes, portem més de 10 anys movent béns per a les persones. Oferim solucions de mudança eficients per a tothom."
+    },
+    "hlMovers": "Mudances Locals",
+    "plMovers": "¿T'instal·les en una casa nova? Deixa que el nostre equip nacional de mudances locals faci la feina per tu. Amb gust empacarem les teves coses i les carregarem en un dels nostres camions. Les teves pertinences s'entregaran de manera ràpida i segura a la teva nova llar.",
+    "hldMovers": "Mudances de Llarga Distància",
+    "pldMovers": "Servei combinat a nivell nacional i internacional amb transferències individuals o compartides arreu d'Espanya, Europa i Amèrica del Sud. Aquest servei és perfecte per a tothom qui necessita una entrega segura a qualsevol estat, ciutat o poble.",
+    "hoMovers": "Mudances d'Oficina",
+    "poMovers": "El nostre equip de conductors dedicats està preparat per fer que la teva mudança d'oficina sigui més fàcil que mai. Tot el que has de fer és posar-te en contacte amb els nostres gestors i ells trobaran els conductors adequats per realitzar la mudança de la teva oficina de la millor manera possible.",
+    "hlPlatform": "Plataforma Elevadora",
+    "plPlatform": "Comptem amb una plataforma elevadora per als serveis que ho requereixen, tant en càrrega com en descàrrega, els permisos són gestionats per nosaltres.",
+    "hPacking": "Serveis d'Embalatge",
+    "pPacking": "A més d'oferir serveis de mudança, també proporcionem solucions d'embalatge assequibles a tots els nostres clients. Els permet amb seguretat completa i un enfocament d'embalatge professional abans que comenci el procés de mudança.",
+    "hStorage": "Unitats d'Emmagatzematge",
+    "pStorage": "Ja sigui que t'instal·lis local o a llarga distància, les nostres instal·lacions d'emmagatzematge amb control climàtic estan dissenyades de manera experta per protegir les teves propietats contra incendis, robatoris, puces i danys per aigua.",
+    "hCleaning": "Desallotjament i Neteja de Pisos",
+    "pCleaning": "Portem a terme el desallotjament de brossa i mobles vells, etc. També comptem amb personal de neteja minuciosa per contractar per preparar la venda i el lloguer.",
+    "hRecycling": "Destrució de Documents i Reciclatge",
+    "pRecycling": "Treballem amb empreses de reciclatge, per a la destrucció documental d'empreses i particulars.",
+    "hBudget": "Pressupost Sense Compromís",
+    "pBudget": "Truca'ns o posa't en contacte amb nosaltres, i et farem una visita sense compromís per avaluar el servei.",
+
+    "lMovers": "Mudances locals",
+    "ldMovers": "Mudances de llarga distància",
+    "oMovers": "Mudances d'oficina",
+    "lPlatform": "Plataforma elevadora",
+    "Packing": "Embalatge",
+    "Storage": "Emmagatzematge",
+    "Cleaning": "Neteja",
+    "Recycling": "Reciclatge",
+    "Budget": "Pressupost"
+  },
+
+  "modal": {
+    "p": "Gràcies per utilitzar els nostres serveis!",
+    "btn": "Finalitzar"
+  },
+
+  "email": {
+    "preview": "Gràcies per la vostra sol·licitud de pressupost amb FilePortes!",
+    "dear": "Estimat/ada",
+    "thanks": "Gràcies per utilitzar els nostres serveis!",
+    "wait1": "Asseieu-vos i relaxeu-vos, un dels nostres transportistes es",
+    "wait2": "posarà en contacte amb vostè en les properes 24 hores.",
+    "regards": "Atentament,",
+    "team": "— L'equip de FilePortes",
+    "btn": "Veure els nostres serveis",
+    "footer": "Aquest és un missatge generat automàticament. Si necessita ajuda o vol canviar alguna cosa en la seva sol·licitud, si us plau aviseu-nos trucant o responent a aquest correu electrònic i ens posarem en contacte amb vostè el més aviat possible."
+  },
+
+  "error": {
+    "h1": "Ho sentim, sembla que no podem trobar la pàgina que busques.",
+    "h2": "Torna a",
+    "h2btn": "Inici"
+  },
+
+  "TC": {
+    "h1": "Termes i Condicions",
+    "p": "En compliment del que estableix la Llei Orgànica 15/1999 de 13 de desembre, sobre protecció de Dades de Caràcter Personal, li informem que, mitjançant l'emplenament del present formulari, les seves dades personals quedaran incorporades i seran tractades en els fitxers de fileportes, SL, amb la finalitat de poder informar i oferir els nostres serveis. Així mateix, li informem de la possibilitat d'exercir els drets d'accés, rectificació i oposició de les seves dades personals a info@fileportes.com",
+    "h2btn": "Sortida"
+  }
+}

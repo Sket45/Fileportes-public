@@ -1,0 +1,98 @@
+.container {
+
+
+    > div {
+
+    
+       margin-bottom: 2vh;
+       
+
+        > h1 {
+            margin: 0 0 1vh 0;
+            font-size: calc(0.9em + 1vh);
+            font-weight: 400;
+        }
+
+        > div {
+            display: flex;
+            // width: 100%;
+            gap: 16px;
+
+
+
+            > div {
+                color: rgb(95, 95, 95) ;
+            }
+            > b {
+                color: rgb(152, 53, 58);
+                font-size: calc(1.1em + 1vh);
+            }
+            > a {
+                color: rgb(151, 151, 151);
+ 
+                transition: all 0.25s ease-in-out;
+                svg {
+                    font-size: 25px;
+                }
+            }
+
+            > a:hover {
+                cursor: pointer;
+                color: rgb(152, 53, 58);
+                transition: all 0.25s ease-in-out;
+            }
+
+        }
+    }
+
+    &_email {
+            
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width: 895px) {
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        gap: 5vw;
+
+        > div {
+            width: fit-content;
+        }
+
+    }
+ 
+ }
+
+ @media only screen and (max-width: 616px) {
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+        min-width: 250px;
+        gap: 5vw;
+
+        > div {
+            width: 45%;
+
+            &:last-of-type {
+
+                width: fit-content;
+                
+                
+            }
+        }
+
+
+
+    }
+ 
+ }

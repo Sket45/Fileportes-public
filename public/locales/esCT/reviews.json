@@ -1,0 +1,104 @@
+{
+    "reviews": [
+        {
+            "review": "Servei excel·lent de mudança. L'equip va ser professional i cuidadós. Tot va arribar en perfectes condicions. Molt recomanat!",
+            "route": "València a Sevilla",
+            "name": "Luisa"
+        },
+        {
+            "review": "Mudança sense complicacions. L'equip va ser amable i eficient. Tot es va moure sense problemes. Molt content amb el servei!",
+            "route": "Madrid a Bilbao",
+            "name": "Diego"
+        },
+        {
+            "review": "Servei excepcional. Els empleats van ser puntuals i respectuosos. Van fer el procés molt fàcil. Recomendaria aquesta empresa sense dubtar-ho!",
+            "route": "Barcelona a València",
+            "name": "Ana"
+        },
+        {
+            "review": "Mudança sense estrès. L'equip va ser professional i cortès. Tot es va moure amb cura i puntualitat. Molt satisfet amb el servei!",
+            "route": "Sevilla a Madrid",
+            "name": "Carlos"
+        },
+        {
+            "review": "Increïble servei de mudança. Els empleats van ser eficients i amables. Van fer que la mudança fos fàcil i sense estrès. Molt recomanat!",
+            "route": "Bilbao a Barcelona",
+            "name": "Elena"
+        },
+        {
+            "review": "Mudança sense problemes. L'equip va ser professional i atent. Tot es va moure amb cura i atenció. Recomano aquesta empresa a tothom!",
+            "route": "València a Madrid",
+            "name": "Javier"
+        },
+        {
+            "review": "Servei excepcional de mudança. El personal va ser cortès i professional. La meva mudança va ser sense estrès i fàcil. Molt recomanat!",
+            "route": "Sevilla a Barcelona",
+            "name": "Isabel"
+        },
+        {
+            "review": "Ràpida i eficient mudança. L'equip va ser puntual i amable. Tot va arribar en perfectes condicions. Molt satisfet amb el servei!",
+            "route": "Madrid a València",
+            "name": "Marta"
+        },
+        {
+            "review": "Excel·lent experiència de mudança. L'equip va ser professional i cuidadós. Van fer que el procés fos fàcil i sense problemes. Totalment recomanat!",
+            "route": "Barcelona a Sevilla",
+            "name": "Antonio"
+        },
+        {
+            "review": "Mudança sense estrès. L'equip va ser puntual i eficient. Tot es va moure amb cura i atenció. Molt content amb el servei proporcionat!",
+            "route": "Bilbao a Madrid",
+            "name": "Carmen"
+        },
+        {
+            "review": "Servei excepcional. Els empleats van ser amables i professionals. Tot es va moure sense problemes. Molt recomanat!",
+            "route": "València a Barcelona",
+            "name": "Pablo"
+        },
+        {
+            "review": "Mudança sense problemes. L'equip va ser professional i eficient. Tot es va moure sense problemes. Molt satisfet amb el servei!",
+            "route": "Sevilla a Bilbao",
+            "name": "Lucía"
+        },
+        {
+            "review": "Increïble servei de mudança. L'equip va ser amable i atent. Van fer que la mudança fos fàcil i sense estrès. Molt recomanat!",
+            "route": "Madrid a Barcelona",
+            "name": "Sergio"
+        },
+        {
+            "review": "Mudança sense complicacions. L'equip va ser puntual i professional. Tot es va moure sense problemes. Molt content amb el servei!",
+            "route": "Bilbao a València",
+            "name": "Eva"
+        },
+        {
+            "review": "Excel·lent servei. Els empleats van ser cortesos i eficients. La meva mudança va ser fàcil i sense problemes. Recomano aquesta empresa sense dubtar-ho!",
+            "route": "Barcelona a Madrid",
+            "name": "Jorge"
+        },
+        {
+            "review": "Ràpida i eficient mudança. L'equip va ser professional i amable. Tot va arribar en perfectes condicions. Molt satisfet amb el servei!",
+            "route": "València a Bilbao",
+            "name": "María"
+        },
+        {
+            "review": "Excel·lent experiència de mudança. L'equip va ser professional i cuidadós. Van fer que el procés fos fàcil i sense problemes. Totalment recomanat!",
+            "route": "Madrid a Sevilla",
+            "name": "Manuel"
+        },
+        {
+            "review": "Mudança sense estrès. L'equip va ser puntual i eficient. Tot es va moure amb cura i atenció. Molt content amb el servei proporcionat!",
+            "route": "Barcelona a Bilbao",
+            "name": "Rosa"
+        },
+        {
+            "review": "Servei excepcional. Els empleats van ser amables i professionals. Tot es va moure sense problemes. Molt recomanat!",
+            "route": "Sevilla a València",
+            "name": "Pedro"
+        },
+        {
+            "review": "Mudança sense problemes. L'equip va ser professional i eficient. Tot es va moure amb cura i atenció. Molt satisfeta amb el servei!",
+            "route": "Bilbao a Madrid",
+            "name": "Laura"
+        }
+    ]
+}

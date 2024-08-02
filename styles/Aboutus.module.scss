@@ -1,0 +1,139 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 50px 50px;
+ 
+    background-color: #fefbf1;
+
+    &_wrapper  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+        gap: 5%;
+        
+        
+
+        max-width: 1600px;
+    
+
+        > div {
+            width: 47.5%;
+
+        }
+
+        
+        &_image {
+            
+            height: 25vh;
+            min-height: 325px;
+        
+        
+            background: url(../public/images/Logo_Van_sky.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            //border-radius: 20px;
+        }
+
+        &_about {
+            
+         
+            min-width: 250px;
+        
+
+            h1, h2 {
+                margin: 0;
+            }
+            h1 {
+                color: rgb(152 53 58);
+                font-size: calc(0.3em + 1vh);
+                
+            }
+            
+            h2 {
+                font-size: calc(1.25em + 1vh);
+            
+            }
+
+            p:first-of-type {
+                
+                font-size: calc(0.4em + 1vh);
+                padding-bottom: 15px;
+            }
+            p:last-of-type{
+                
+                font-size: calc(0.25em + 1vh);
+                padding-bottom: 15px;
+            }
+            
+
+        }
+    }
+
+
+}
+
+@media only screen and (max-width: 1099px) {
+
+    .container {
+
+        &_wrapper {
+            
+
+            > div {
+                width: 75%;
+            }
+
+
+            &_image {
+
+                
+
+            }
+
+            &_about {
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                
+
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 708px) {
+
+    .container {
+
+        &_wrapper {
+            
+
+            > div {
+                width: 100%;
+            }
+
+
+            &_image {
+
+                
+
+            }
+
+            &_about {
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                
+
+            }
+        }
+    }
+}

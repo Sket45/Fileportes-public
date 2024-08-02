@@ -1,0 +1,126 @@
+@import "./variables/_variables";
+@import url(https://db.onlinewebfonts.com/c/a0fc537ed7864b9a1f6596090483a116?family=Sol+W01+Medium);
+@import url(https://db.onlinewebfonts.com/c/6d4531e40156152d70eba69a94f023f7?family=Sol+Condensed+W01+Bold);
+//@import "~react-datepicker/dist/react-datepicker"
+//@import url('https://cdnjs.cloudflare.com/ajax/libs/react-datepicker/2.8.0/react-datepicker.min.css');
+
+.Container {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100% !important;
+  height: 100%;
+  font-size: calc(0.45em + 1vh);
+  background-color: #fef8e7;
+  overflow: hidden;
+
+  display: grid;
+
+  grid-template-areas:
+    "nav"
+    "header"
+    "main"
+    "footer";
+}
+
+.whatsapp {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16vh;
+  height: 4vh;
+  bottom: 2vh;
+  right: 1.5vw;
+  background-color: #25b058;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.6);
+  z-index: 8;
+  animation: wiggle 2s 5s infinite;
+
+  > p {
+    font-size: calc(0.4em + 1vh);
+  }
+
+  &_icon {
+    margin-right: 5px;
+    font-size: calc(0.75em + 1vh);
+  }
+}
+
+.tape {
+  &:before,
+  &:after {
+    background: rgba(255, 255, 235, 0.6);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    content: "";
+    display: block;
+    height: 30px;
+    position: absolute;
+    margin: auto;
+    width: 100px;
+  }
+}
+.tape-1 {
+  &:before {
+    left: -30px;
+    top: 5px;
+    transform: rotate(-45deg);
+  }
+
+  &:after {
+    bottom: 5px;
+    right: -30px;
+    transform: rotate(-45deg);
+  }
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  80% {
+    transform: rotate(0deg);
+  }
+  85% {
+    transform: rotate(2.5deg);
+  }
+  95% {
+    transform: rotate(-2.5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .whatsapp {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    bottom: 2vh;
+    right: 1.5vw;
+    background-color: #25b058;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.6);
+    z-index: 8;
+
+    > p {
+      display: none;
+      font-size: calc(0.4em + 1vh);
+    }
+
+    &_icon {
+      margin-right: 0px;
+      font-size: calc(1.5em + 1vh);
+    }
+  }
+}

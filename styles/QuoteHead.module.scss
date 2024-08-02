@@ -1,0 +1,134 @@
+.container {
+  &_imageHead {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 25vh;
+    background: url(../public/images/happy_couple.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    &::after {
+      background-color: rgba(0, 0, 0, 0.2);
+
+      content: "";
+      top: 0;
+      left: 0;
+      height: 100%;
+      position: absolute;
+      width: 100%;
+      z-index: 1;
+    }
+  }
+
+  &_quoteText {
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: calc(0.4em + 1vh);
+
+    border: 2px solid #fffcf5;
+    padding: 2vh 15vh;
+    z-index: 2;
+    position: relative;
+
+    &::before {
+      background-color: rgba(33, 72, 80, 0.4);
+      backdrop-filter: blur(2px);
+
+      content: "";
+      top: 0;
+      left: 0;
+      height: 100%;
+      position: absolute;
+      width: 100%;
+      z-index: -1;
+    }
+  }
+
+  &_quoteBox {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 5vw;
+    width: calc(18em + 1vh);
+    height: fit-content;
+    padding: 1vh 3vh;
+    border-bottom: 4px solid #ded5be;
+    border-right: 3px solid #ded5be;
+    border-radius: 10px;
+
+    background-color: #fffcf4;
+
+    //border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 19px 38px,
+      rgba(0, 0, 0, 0.32) 0px 15px 12px;
+
+    &_header {
+      display: flex;
+      align-items: center;
+
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: calc(3em + 1vh);
+
+        svg {
+          color: #3c7a5c;
+          font-size: calc(2.3em + 1vh);
+        }
+      }
+
+      h1 {
+        font-size: calc(0.5em + 1vh);
+        margin: 0;
+        padding-left: 5%;
+        text-wrap: nowrap;
+      }
+    }
+
+    p {
+      max-width: 360px;
+      padding: 5% 0;
+      font-size: calc(0.2em + 1vh);
+      text-align: center;
+      margin: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .container_quoteBox {
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+
+  .container_quoteText {
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: calc(0.4em + 1vh);
+    width: 80%;
+    border: 2px solid #fffcf5;
+    padding: 2vh 2vh;
+    z-index: 2;
+    position: relative;
+
+    &::before {
+      background-color: rgba(33, 72, 80, 0.4);
+      backdrop-filter: blur(2px);
+
+      content: "";
+      top: 0;
+      left: 0;
+      height: 100%;
+      position: absolute;
+      width: 100%;
+      z-index: -1;
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "language": {
+    "gb": "Inglés",
+    "es": "Español",
+    "esCT": "Catalán"
+  },
+  "navBar": {
+    "div": "Síguenos en",
+    "office": "Oficina",
+    "button": "¡Pregúntanos lo que sea!"
+  },
+  "aboutUs": {
+    "h1": "Nuestra Historia",
+    "h2": "Sobre Nosotros",
+    "p1": "Somos una empresa joven, con más de 10 años de experiencia y contamos con un equipo altamente calificado para la reubicación de hogares, particulares y empresas. Ofrecemos servicios integrales de mudanzas y embalaje para hogares y empresas con el objetivo de superar las expectativas de los clientes.",
+    "p2": "Nos encargamos de mudanzas de apartamentos, condominios, casas, negocios y todo lo que esté en medio, desde muy pequeño hasta muy grande. Ya sea mudarse a la calle de al lado, a través del país o a un nuevo hogar o edificio comercial, estamos aquí para ayudar a manejar el estrés de la mudanza. Cooperando con nosotros, no tienes que preocuparte por nada, ¡nosotros nos encargamos!"
+  },
+  "contactUs": {
+    "basePage": "Ponte en Contacto",
+    "anyPage": "Contáctanos",
+    "mainPage": "¡Solicite una cotización gratuita ahora!",
+    "p": "Puedes ponerte en contacto con nosotros de cualquier manera que te resulte conveniente. Estamos disponibles las 24 horas del día, los 7 días de la semana vía correo electrónico. También puedes usar un formulario de contacto rápido a continuación o llamarnos personalmente.",
+    "service": "Servicio",
+    "fName": "Nombre",
+    "lName": "Apellido",
+    "eMail": "Correo electrónico",
+    "phone": "Teléfono",
+    "message": "Mensaje",
+    "agree": "Estoy de acuerdo con los ",
+    "TC": "términos y condiciones",
+    "socials": "Redes Sociales",
+    "button": "Enviar",
+    "budget": "Contáctanos y te daremos una visita gratuita y sin compromiso para evaluar el servicio.",
+    "lPlatform": "Por favor, proporciona detalles de lo que necesita ser levantado en el campo de mensaje a continuación.",
+    "Packing": "Nuestras soluciones de embalaje son asequibles para todos nuestros clientes. Permite un enfoque de embalaje completamente seguro y profesional antes de que comience el proceso de mudanza.",
+    "Storage": "Nuestras instalaciones de almacenamiento están diseñadas expertamente para proteger su propiedad contra todo, desde incendios y robos hasta chinches y daños por agua.",
+    "Cleaning": "Realizamos desalojo de basura y muebles antiguos, etc. También contamos con personal de limpieza exhaustiva para contratar y preparar para la venta y alquiler.",
+    "Recycling": "Trabajamos con empresas de reciclaje, para la destrucción documental de empresas e individuos.",
+    "includeP": "Incluir Servicio de Embalaje",
+    "from": "De",
+    "to": "A",
+    "postcode": "Código postal...",
+    "location": "Ubicación;"
+  },
+  "main": {
+    "h1": "Trabajadores Experimentados",
+    "p1": "Ofrecemos servicios de mudanzas profesionales las 24 horas del día, los 7 días de la semana. Significa que siempre puedes confiar en nosotros, especialmente cuando necesitas servicios de mudanza urgentes.",
+    "h2": "Mudanzas Nacionales e Internacionales",
+    "p2": "Transferencias individuales o compartidas en toda España, Europa y América del Sur.",
+    "h3": "Respuesta Rápida",
+    "p3": "Cada cliente que contrata servicios en nuestra empresa recibe un soporte informativo completo sobre el estado de su mudanza, que se actualiza regularmente.",
+    "h4": "Conductores con Autorización de Seguridad",
+    "p4": "Contratamos conductores dedicados, capacitados y con autorización de seguridad para ayudarte a organizar tu mudanza a cualquier lugar de Europa en cualquier momento, día o noche.",
+    "info": {
+      "h1": "Lo Que Hacemos",
+      "h2": "Nuestros Servicios",
+      "p": "Somos una empresa joven, con más de 10 años de experiencia y contamos con un equipo altamente calificado para la reubicación de hogares, particulares y empresas.",
+      "l1": "Mudanzas Locales",
+      "l2": "Mudanzas de Larga Distancia",
+      "l3": "Mudanzas de Oficina",
+      "l4": "Embalaje",
+      "button": "Ver Todos los Servicios"
+    },
+    "reviews": {
+      "h1": "Lo Que la Gente Dice",
+      "h2": "Reseñas",
+      "span": "¡Valoramos tus comentarios!"
+    },
+    "contact": {
+      "h1": "¿Quieres hablar?",
+      "h2": "Por favor llámanos",
+      "p": "¿Necesitas mudarte de una casa a otra?",
+      "p2": "¡Estamos aquí para ayudarte!",
+      "div": "Formulario de Contacto"
+    },
+    "smallAbout": {
+      "h1": "Empresa de mudanzas confiable con más de 10 años de experiencia",
+      "p": "Con una década de experiencia, brindamos servicios integrales de embalaje y mudanza diseñados para superar sus expectativas. Elíjanos para una experiencia de mudanza eficiente y sin estrés."
+    }
+  },
+  "navBarLinks": {
+    "l1": "Inicio",
+    "l2": "Servicios",
+    "l3": "Tarifas",
+    "l4": "Contactos"
+  },
+  "navHeader": {
+    "services": {
+      "h1": "Soluciones de Mudanza",
+      "h2": "Servicios"
+    },
+    "rates": {
+      "h1": "Precios",
+      "h2": "Nuestras Tarifas"
+    },
+    "contacts": {
+      "h1": "Contáctanos",
+      "h2": "Contactos"
+    }
+  },
+  "quoteHead": {
+    "h1": "100% Precio Bajo",
+    "h2": "Garantizado",
+    "p": "Como empresa de mudanzas confiable, ofrecemos precios 100% asequibles en nuestros servicios de mudanzas privadas y comerciales.",
+    "div": "Obtén un Presupuesto Instantáneo",
+    "p1": "¡Contáctenos hoy para una cotización gratuita!"
+  },
+  "rates": {
+    "h1": "Lo de Mudanzas Simples y Portes",
+    "p1": "¡Obtener una cotización de mudanza nunca ha sido tan fácil! Precios sencillos y fáciles de entender. Simplemente contáctenos, proporcione información básica sobre su mudanza y haga clic en el botón “Enviar”. ¡Uno de nuestros profesionales de mudanzas se comunicará con usted y concertará una cita sin coste alguno!",
+    "p2": "No es ningún secreto que mudarse a una casa nueva puede resultar costoso, especialmente cuando está involucrada una empresa de mudanzas profesional. Sin embargo, nuestra política de precios lo desmiente, ya que creemos que la mudanza debería ser asequible para todos.",
+    "th1": "OPerarios",
+    "th2": "Camión",
+    "th3": "Tarifa por Hora",
+    "th4": "Horas Mínimas",
+    "thMin": "Mínimo 3 Horas",
+    "thNoMin": "Sin Mínimo",
+    "h2": "Nuestras tarifas por hora no incluyen material de embalaje.",
+    "tax": "+ IVA"
+  },
+  "services": {
+    "header": {
+      "h1": "Lo Que Hacemos",
+      "h2": "Nuestros Servicios",
+      "p": "En FilePortes, hemos estado moviendo bienes para personas durante más de 10 años. Ofrecemos soluciones de mudanza eficientes para todos."
+    },
+    "hlMovers": "Mudanzas Locales",
+    "plMovers": "¿Te mudas a una casa nueva? Deja que nuestro equipo nacional de mudanzas locales haga el trabajo por ti. Con gusto empacaremos tus cosas y las cargaremos en uno de nuestros camiones. Tus pertenencias se entregarán de manera rápida y segura a tu nuevo hogar.",
+    "hldMovers": "Mudanzas de Larga Distancia",
+    "pldMovers": "Servicio combinado a nivel nacional e internacional con transferencias individuales o compartidas en toda España, Europa y América del Sur. Este servicio es perfecto para todos los que necesitan una entrega segura a cualquier estado, ciudad o pueblo.",
+    "hoMovers": "Mudanzas de Oficina",
+    "poMovers": "Nuestro equipo de conductores dedicados está listo para hacer que tu mudanza de oficina sea más fácil que nunca. Todo lo que tienes que hacer es ponerte en contacto con nuestros gerentes y ellos encontrarán a los conductores adecuados para realizar la mudanza de tu oficina de la mejor manera posible.",
+    "hlPlatform": "Plataforma Elevadora",
+    "plPlatform": "Contamos con una plataforma elevadora para los servicios que lo requieran, tanto en carga como en descarga, los permisos son gestionados por nosotros.",
+    "hPacking": "Servicios de Embalaje",
+    "pPacking": "Además de ofrecer servicios de mudanza, también proporcionamos soluciones de embalaje asequibles a todos nuestros clientes. Les permite contar con seguridad completa y un enfoque de embalaje profesional antes de que comience el proceso de mudanza.",
+    "hStorage": "Unidades de Almacenamiento",
+    "pStorage": "Ya sea que te mudes local o a larga distancia, nuestras instalaciones de almacenamiento con control climático están diseñadas de manera experta para proteger tus propiedades contra incendios, robos, chinches y daños por agua.",
+    "hCleaning": "Desalojo y Limpieza de Pisos",
+    "pCleaning": "Llevamos a cabo el desalojo de basura y muebles viejos, etc. También contamos con personal de limpieza minuciosa para volver a alquilar o vender.",
+    "hRecycling": "Destrucción de Documentos y Reciclaje",
+    "pRecycling": "Trabajamos con empresas de reciclaje, para la destrucción documental de empresas y particulares.",
+    "hBudget": "Presupuesto Sin Compromiso",
+    "pBudget": "Llámanos o contáctanos, y te haremos una visita sin compromiso para evaluar el servicio.",
+
+    "lMovers": "Mudanzas locales",
+    "ldMovers": "Mudanzas de larga distancia",
+    "oMovers": "Mudanzas de oficina",
+    "lPlatform": "Plataforma elevadora",
+    "Packing": "Embalaje",
+    "Storage": "Almacenamiento",
+    "Cleaning": "Limpieza",
+    "Recycling": "Reciclaje",
+    "Budget": "Presupuesto"
+  },
+
+  "modal": {
+    "p": "¡Gracias por utilizar nuestros servicios!",
+    "btn": "Finalizar"
+  },
+
+  "email": {
+    "preview": "¡Gracias por su solicitud de cotización con FilePortes!",
+    "dear": "Estimado/a",
+    "thanks": "¡Gracias por utilizar nuestros servicios!",
+    "wait1": "Siéntese y relájese, uno de nuestros transportistas se comunicará",
+    "wait2": "contigo en las próximas 24 horas.",
+    "regards": "Atentamente,",
+    "team": "— El equipo de FilePortes",
+    "btn": "Ver nuestros servicios",
+    "footer": "Este es un mensaje generado automáticamente. Si necesita ayuda o desea cambiar algo en su solicitud, por favor avísenos llamando o respondiendo a este correo electrónico y nos pondremos en contacto con usted lo antes posible."
+  },
+
+  "error": {
+    "h1": "Lo sentimos, parece que no podemos encontrar la página que estás buscando.",
+    "h2": "Volver a",
+    "h2btn": "Inicio"
+  },
+
+  "TC": {
+    "h1": "Términos y Condiciones",
+    "p": "En cumplimiento de lo establecido en la ley Orgánica 15/1999 de 13 de diciembre, sobre protección de Datos de Carácter Personal le informamos que, mediante la cumplimentación del presente formulario, sus datos personales quedarán incorporados y serán tratados en los ficheros de fileportes, SL, con el fin de poder informar y ofrecer nuestros servicios. Asimismo, le informamos de la posibilidad de ejercer los derechos de acceso, rectificación y oposición de sus datos personales a info@fileportes.com",
+    "h2btn": "Salida"
+  }
+}

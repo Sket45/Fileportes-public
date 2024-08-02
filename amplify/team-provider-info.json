@@ -1,0 +1,26 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifycd4e56ae21464-staging-195214-authRole",
+      "UnauthRoleArn": "arn:aws:iam::339713106315:role/amplify-amplifycd4e56ae21464-staging-195214-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::339713106315:role/amplify-amplifycd4e56ae21464-staging-195214-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplifycd4e56ae21464-staging-195214-deployment",
+      "UnauthRoleName": "amplify-amplifycd4e56ae21464-staging-195214-unauthRole",
+      "StackName": "amplify-amplifycd4e56ae21464-staging-195214",
+      "StackId": "arn:aws:cloudformation:us-east-1:339713106315:stack/amplify-amplifycd4e56ae21464-staging-195214/02ed39c0-ea18-11ee-a94d-0ea4ae3f9c79",
+      "AmplifyAppId": "d1b1wugmxdtou2"
+    },
+    "categories": {
+      "function": {
+        "fileportesEmail": {
+          "deploymentBucketName": "amplify-amplifycd4e56ae21464-staging-195214-deployment",
+          "s3Key": "amplify-builds/fileportesEmail-672b374a574f2f454854-build.zip"
+        }
+      },
+      "api": {
+        "email": {}
+      }
+    }
+  }
+}

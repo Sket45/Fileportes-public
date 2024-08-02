@@ -1,0 +1,33 @@
+
+.headerButton {
+    position: absolute;
+    white-space: nowrap;
+    font-size: calc(0.6em + 1vh);
+    font-weight: 400;
+    right: 0;
+    border-radius: 50px 15px;
+    margin: 2vh 1.75vw;
+    transition: none !important;
+}
+
+.button {
+    all: unset;
+    padding: 1.25vh;
+    background-color: #3C7A5C;
+    font-weight: 500;
+    font-size: calc(0.3em + 1vh);
+    color: white !important;
+    padding: 5px 20px;
+    text-align: center;
+    text-wrap: nowrap;
+    width: fit-content !important;
+    height: fit-content !important;
+    border-bottom: 4px solid #245c41;
+    border-right: 4px solid #245c41;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+
+    &:hover {
+        background-color: #468f6c;
+    }
+}

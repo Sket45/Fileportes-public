@@ -1,0 +1,61 @@
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 1vh;
+  align-items: flex-end;
+  padding:  1vh;
+  transform: translate(160%,10%);
+  background-color: rgba(0, 0 ,0 ,0.1 );
+  
+  //border: solid black 1px;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  
+
+
+  > div {
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    align-items: center;
+    height:75px;
+    
+    
+
+    label{
+      width: 5vw;
+      color: black;
+    }
+    > :last-child {
+      width: 30vw;
+      border-radius: 15px;
+      border: none;
+      
+    }
+
+    input {
+      font-weight: 400;
+    }
+
+  }
+}
+
+
+.select {
+  font-size: 1.25rem;
+  font-weight: 500;
+
+  div > div[class$='control']{
+
+    height: 5vh;
+    border-radius: 15px;
+  }
+  
+
+
+  }
+
+
+

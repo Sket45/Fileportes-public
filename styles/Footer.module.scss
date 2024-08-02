@@ -1,0 +1,11 @@
+.footer {
+    height: 7.5vh;
+    grid-area: footer ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    font-size: calc(0.25em + 1vh);
+}   

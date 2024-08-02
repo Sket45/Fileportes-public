@@ -1,0 +1,385 @@
+.container {
+  &_required_field::after {
+    content: "*";
+    color: red;
+  }
+
+  &_active {
+    display: none;
+  }
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // flex-wrap: wrap;
+  background-color: #fffcf5;
+  width: 100vw;
+  gap: 5vw;
+
+  padding: 3.5vh 50px;
+
+  form {
+    max-width: 800px;
+    width: 100%;
+
+    //padding-bottom: 50px;
+
+    > h1 {
+      margin: 0 0 3vh 0;
+      text-align: center;
+      //  padding-bottom: 20px;
+    }
+
+    > div {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      gap: 4%;
+
+      flex-wrap: wrap;
+
+      > div {
+        width: 48%;
+        min-width: 250px;
+      }
+    }
+  }
+
+  &_services {
+    height: 230px;
+
+    &_wrapper {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+
+      > label {
+        color: rgb(75, 75, 75);
+      }
+
+      &_initial {
+        cursor: pointer;
+        &:hover {
+          // > div {
+
+          //     transform: scaleY(1);
+          //     // transition:  all .3s ease-in-out;
+          // }
+
+          svg {
+            background-color: white;
+            color: black;
+            transition: all 0.3s ease-in-out;
+          }
+        }
+
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1rem;
+        width: 100%;
+        min-height: 50px !important;
+        padding-left: 10px;
+        background-color: white;
+        border: 1px solid silver !important;
+
+        svg {
+          height: 100%;
+          width: 38px;
+          padding: 0 5px;
+          font-size: 25px;
+          color: silver;
+          background-color: rgb(245, 245, 245);
+          border-left: 1px solid silver;
+          transition: all 0.3s ease-in-out;
+        }
+      }
+      &_hidden {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+
+        top: 48px;
+        left: -1px;
+        width: 100.5%;
+        background-color: white;
+        border: 1px solid silver !important;
+        z-index: 1;
+        transform: scaleY(0);
+        transform-origin: top;
+        // transition:  all .3s ease-in-out;
+
+        div {
+          width: 100%;
+          height: 100%;
+          padding: 10px;
+          cursor: pointer;
+        }
+        div:hover {
+          background-color: rgb(245, 245, 245);
+        }
+      }
+    }
+  }
+
+  &_wrapper {
+    display: flex;
+
+    flex-direction: column;
+
+    input,
+    .form-control {
+      padding: 0 10px;
+      outline: none;
+      border: 1px solid silver !important;
+
+      &:focus {
+        outline: none;
+        border: none;
+        //box-shadow: 0px 0px 5px #61C5FA;
+      }
+    }
+
+    label {
+      color: rgb(75, 75, 75);
+      padding-top: 20px;
+    }
+
+    input {
+      width: 100% !important;
+      border: 1px solid rgb(120, 120, 120);
+    }
+
+    input,
+    .form-control {
+      height: 50px !important;
+    }
+
+    div[class*="react-tel-input"] > div > ul {
+      box-shadow: 2px 2px 11px 0px rgba(0, 0, 0, 0.35);
+      margin: 1px 0 10px -1px;
+    }
+
+    &_additional {
+      &_individual {
+        display: flex;
+        flex-direction: column;
+
+        height: 100%;
+
+        > div {
+          font-size: calc(0.1em + 1vh);
+          border-top: 1px solid silver;
+          border-bottom: 1px solid silver;
+          border-radius: 15px;
+          text-align: center;
+          padding: 10px;
+          margin: auto 0;
+        }
+
+        > label {
+          all: unset;
+          font-size: calc(0.15em + 1vh);
+          cursor: pointer;
+          justify-content: flex-end;
+        }
+      }
+      display: flex;
+      flex-direction: column;
+
+      > h1 {
+        width: fit-content;
+        margin: 8px 0;
+
+        font-size: 1.35rem;
+        color: rgb(75, 75, 75);
+        font-weight: 400;
+      }
+
+      > div {
+        display: flex;
+        flex-direction: row;
+        gap: 8%;
+
+        div {
+          display: flex;
+          flex-direction: column;
+
+          label {
+            padding-top: 0;
+          }
+        }
+      }
+
+      > label {
+        all: unset;
+        font-size: calc(0.1em + 1vh);
+        cursor: pointer;
+        margin-top: 15px;
+      }
+    }
+  }
+
+  &_wrapper_textarea {
+    display: flex;
+    flex-direction: column;
+    color: rgb(75, 75, 75);
+
+    label {
+      padding-top: 20px;
+    }
+
+    textarea {
+      outline: none;
+      padding: 10px;
+      border: 1px solid silver !important;
+      margin-bottom: 10px;
+      resize: vertical;
+      min-height: 80px;
+    }
+  }
+
+  &_buttonWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+
+    > div {
+      display: flex;
+      width: 100% !important;
+      justify-content: center;
+      align-items: center;
+
+      > button {
+        width: 20% !important;
+      }
+    }
+  }
+
+  &_image {
+    position: relative;
+    height: 230px;
+    background-size: cover;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    border: 1px solid silver !important;
+
+    z-index: 0;
+
+    &::before {
+      content: "";
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      height: 125px;
+      width: 125px;
+      position: absolute;
+      background-size: contain;
+      background-repeat: no-repeat;
+      filter: invert(1);
+      z-index: 2;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      backdrop-filter: blur(5px);
+      background-color: rgba(#000000, 0.3);
+    }
+  }
+
+  #lMovers {
+    background-image: url(../public/images/man_van.png);
+
+    &::before {
+      background-image: url(../public/images/svg/house_removal.svg);
+    }
+  }
+  #ldMovers {
+    background-image: url(../public/images/long_distance_movers.jpg);
+
+    &::before {
+      background-image: url(../public/images/svg/truck.svg);
+      width: 45%;
+    }
+  }
+  #oMovers {
+    background-image: url(../public/images/office_relocation.png);
+
+    &::before {
+      background-image: url(../public/images/svg/office_removals.svg);
+    }
+  }
+  #lPlatform {
+    background-image: url(../public/images/Lifting_platform.png);
+
+    &::before {
+      background-image: url(../public/images/svg/lifting_truck.svg);
+    }
+  }
+  #Packing {
+    background-image: url(../public/images/packing.png);
+
+    &::before {
+      background-image: url(../public/images/svg/packaged_box.svg);
+    }
+  }
+  #Storage {
+    background-image: url(../public/images/storage_unit.png);
+
+    &::before {
+      background-image: url(../public/images/svg/storage.svg);
+    }
+  }
+  #Cleaning {
+    background-image: url(../public/images/cleaning.png);
+
+    &::before {
+      background-image: url(../public/images/svg/cleaning.svg);
+    }
+  }
+  #Recycling {
+    background-image: url(../public/images/recycling.png);
+
+    &::before {
+      background-image: url(../public/images/svg/recycle.svg);
+    }
+  }
+  #Budget {
+    background-image: url(../public/images/budget.png);
+
+    &::before {
+      background-image: url(../public/images/svg/coin.svg);
+    }
+  }
+}
+
+.button {
+  margin-top: 20px;
+
+  padding: 8px 80px;
+}
+
+@media only screen and (max-width: 895px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .container form {
+    min-width: 250px;
+
+    div > div:not([class~="react-tel-input"] *) {
+      width: 100%;
+    }
+  }
+}

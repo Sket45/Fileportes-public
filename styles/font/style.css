@@ -1,0 +1,6 @@
+  @font-face {
+    font-family: 'Paper Sign Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Paper Sign Regular'), url('./Paper\ Sign.woff') format('woff');
+    }

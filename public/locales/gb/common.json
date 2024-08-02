@@ -1,0 +1,185 @@
+{
+  "language": {
+    "gb": "English",
+    "es": "Spanish",
+    "esCT": "Catalan"
+  },
+  "navBar": {
+    "div": "Follow us on",
+    "office": "Office",
+    "button": "Ask us Anything!"
+  },
+  "aboutUs": {
+    "h1": "Our Story",
+    "h2": "About Us",
+    "p1": "We are a young company, with more than 10 years of experience and we have a highly qualified team for the relocation of homes for individuals and companies. We offer comprehensive home and business relocation and packing services aiming to exceed customers expectations.",
+    "p2": "We move apartments, condominiums, homes, businesses, and everything in between – from very small to very large. Whether moving down the street, across the country, or to a new home or business building, we’re here to help with managing relocation stress. Cooperating with us you don’t have to worry about anything as we take care of it."
+  },
+  "contactUs": {
+    "basePage": "Get in Touch",
+    "anyPage": "Contact Us",
+    "mainPage": "Request a free Quote now!",
+    "p": "You can contact us any way that is convenient for you. We are available 24/7 via email. You can also use a quick contact form below or call us personally.",
+    "service": "Service",
+    "fName": "First name",
+    "lName": "Last name",
+    "eMail": "E-mail",
+    "phone": "Phone",
+    "message": "Message",
+    "agree": "I agree with the ",
+    "TC": "terms and conditions",
+    "socials": "Socials",
+    "button": "Send",
+    "budget": "Contact us and we will give you a free no-obligation visit to assess the service.",
+    "lPlatform": "Please provide details of what needs lifting in the message field below.",
+    "Packing": "Our packing solutions are  affordable to all our clients. It enables a fully safe and professional packing approach before the moving process starts.",
+    "Storage": " Our storage facilities are expertly designed to guard your property against everything from fire and theft to bedbugs and water damage.",
+    "Cleaning": "We carry out eviction of junk and old furniute, etc. As well we have thorough cleaning staff to hire to prepare for selling and renting.",
+    "Recycling": "We work with recycling companies, for the documentary destruction of companies and Individuals.",
+    "includeP": "Include Packaging Service",
+    "from": "From",
+    "to": "To",
+    "postcode": "Postcode...",
+    "location": "Location;"
+  },
+  "main": {
+    "h1": "Experienced Workers",
+    "p1": "We provide professional moving services 24/7. It means you can always rely on us especially when you need urgent moving services.",
+    "h2": "National and International Movings",
+    "p2": "Individual or shared transfers throughout Spain, Europe and South America.",
+    "h3": "Quick Response",
+    "p3": "Every customer who orders services at our company gets full informational support on the status of their move, which is regularly updated.",
+    "h4": "Security Cleared Drivers",
+    "p4": "We employ dedicated, trained, security cleared drivers to help you organize your move to anywhere in the Europe at any time - day or night.",
+    "info": {
+      "h1": "What We Do",
+      "h2": "Our Services",
+      "p": "We are a young company, with more than 10 years of experience and we have a highly qualified team for the relocation of homes, individuals and companies.",
+      "l1": "Local Movers",
+      "l2": "Long-Distance Movers",
+      "l3": "Office Movers",
+      "l4": "Packing",
+      "button": "View All Services"
+    },
+    "reviews": {
+      "h1": "What People Say",
+      "h2": "Reviews",
+      "span": "We value your feedback!"
+    },
+    "contact": {
+      "h1": "Want to talk?",
+      "h2": "Please call us",
+      "p": "Need remove from one house to another?",
+      "p2": "We are here to help You!",
+      "div": "Contact Form"
+    },
+    "smallAbout": {
+      "h1": "Reliable Moving Company with Over 10 Years of Experience",
+      "p": "With a decade of expertise, we provide comprehensive packing and moving services designed to exceed your expectations. Choose us for a stress-free, efficient moving experience."
+    }
+  },
+  "navBarLinks": {
+    "l1": "Home",
+    "l2": "Services",
+    "l3": "Rates",
+    "l4": "Contacts"
+  },
+  "navHeader": {
+    "services": {
+      "h1": "Moving Solutions",
+      "h2": "Services"
+    },
+    "rates": {
+      "h1": "Pricing",
+      "h2": "Our Rates"
+    },
+    "contacts": {
+      "h1": "Contact Us",
+      "h2": "Contacts"
+    }
+  },
+  "quoteHead": {
+    "h1": "100% Low Price",
+    "h2": "Guarantee",
+    "p": "As a reliable moving company, we offer 100% affordable prices on our private and commercial moving services.",
+    "div": "Get an Instant Quote",
+    "p1": "Contact us today for a free quote!"
+  },
+  "rates": {
+    "h1": "Simple Moving and Shipping",
+    "p1": "Getting a moving quote has never been easier! Simply straight-forward pricing that's easy to understand. Just contact us, provide some basic information about your move, and click the “Send” button. One of our movers will contact you and arrange an appointment cost-free!",
+    "p2": "It’s no secret that relocating to a new house can get expensive – especially when a professional moving company is involved. However, our pricing policy disproves it as we believe moving should be affordable for everyone.",
+    "th1": "Operators",
+    "th2": "Truck",
+    "th3": "Hourly Rate",
+    "th4": "Minimum Hours",
+    "thMin": "Minimum 3 Hours",
+    "thNoMin": "No Minimum",
+    "h2": "Our per hour rates do not include packaging material.",
+    "tax": "VAT is not included in the rate"
+  },
+  "services": {
+    "header": {
+      "h1": "What We Do",
+      "h2": "Our Services",
+      "p": " At FilePortes, we have been moving goods for people for over 10 years. We offer efficient removal solutions for everyone."
+    },
+    "hlMovers": "Local Movers",
+    "plMovers": "Moving to a new home? Let our nationwide team of local movers do the work for you. We will gladly pack your things and load them into one of our trucks. Your belongings will be quickly and safely delivered to your new home.",
+    "hldMovers": "Long-Distance Movers",
+    "pldMovers": "Combined service at national and international level with individual or shared transfers throughout Spain, Europe and South America. This service is perfect for everyone who needs a secure delivery to any state, city, or town.",
+    "hoMovers": "Office Movers",
+    "poMovers": "Our team of dedicated drivers is ready to make your office move easier than ever before. All you have to do is contact our managers and they will find the proper drivers to perform the moving of your office in the best manner.",
+    "hlPlatform": "Lifting Platform",
+    "plPlatform": "We have a lifting platform for the services that require it, both in loading and unloading, the permits are managed by us.",
+    "hPacking": "Packing Services",
+    "pPacking": "Besides offering moving services we also provide affordable packing solutions to all our clients. It enables them with full safety and professional packing approach before the moving process starts.",
+    "hStorage": "Storage Units",
+    "pStorage": "Whether you are moving locally or long distance, our climate-controlled storage facilities are expertly designed to guard your property against everything from fire and theft to bedbugs and water damage.",
+    "hCleaning": "Eviction & Floor Cleaning",
+    "pCleaning": "We carry out eviction of junk and old furniute, etc. As well we have thorough cleaning staff to hire to prepare for selling and renting.",
+    "hRecycling": "Document Destruction & Recycling",
+    "pRecycling": "We work with recycling companies, for the documentary destruction of companies and Individuals.",
+    "hBudget": "Budget Without Obligation",
+    "pBudget": "Call us or contact us, and we will give you a no-obligation visit to assess the service.",
+
+    "lMovers": "Local Movers",
+    "ldMovers": "Long-Distance Movers",
+    "oMovers": "Office Movers",
+    "lPlatform": "Lifting Platform",
+    "Packing": "Packing",
+    "Storage": "Storage",
+    "Cleaning": "Cleaning",
+    "Recycling": "Recycling",
+    "Budget": "Budget"
+  },
+
+  "modal": {
+    "p": "Thank you for using our services!",
+    "btn": "Finish"
+  },
+
+  "email": {
+    "preview": "Thank you for your quote request with FilePortes!",
+    "dear": "Dear",
+    "thanks": "Thank you for using our services!",
+    "wait1": "Sit back and relax, one of our movers will be",
+    "wait2": "in touch within 24 hours.",
+    "regards": "Kind Regards,",
+    "team": "— The FilePortes team",
+    "btn": "View our Services",
+    "footer": "This is an automatically generated message. If you need help or need to change anything in your request, Please let us know by calling or replying to this email and we will reach out to you as soon as possible."
+  },
+
+  "error": {
+    "h1": "We're Sorry we can't seem to find the page you are looking for.",
+    "h2": "Go back to",
+    "h2btn": "Home"
+  },
+
+  "TC": {
+    "h1": "Terms and Conditions",
+    "p": "In compliance with the provisions of Organic Law 15/1999 of December 13, on the Protection of Personal Data, we inform you that by completing this form, your personal data will be incorporated and processed in the files of fileportes, SL, in order to inform and offer our services. We also inform you of the possibility of exercising your rights of access, rectification, and opposition to your personal data at info@fileportes.com",
+    "h2btn": "Exit"
+  }
+}

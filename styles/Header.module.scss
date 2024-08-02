@@ -1,0 +1,131 @@
+.wrapper {
+  position: absolute;
+  top: 4.04vh;
+  width: 100%;
+  height: 95.96vh;
+  overflow-x: hidden;
+}
+
+.container {
+  height: 60.6vh;
+  width: 100%;
+  position: relative;
+
+  .carWrapper {
+    position: absolute;
+    width: 100%;
+    height: 8vh;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+
+    .header_container {
+      position: relative;
+      display: flex;
+      flex-basis: 0;
+      width: 18.5vh;
+      height: 8vh;
+      margin: 0 auto;
+
+      &_car {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: url(../public/images/Header_car_carcass.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 3;
+
+        &_wheelWrapper {
+          position: relative;
+          display: flex;
+          justify-content: space-between;
+          align-items: end;
+          width: 100%;
+          padding: 0 2.2vh 0.3vh 3.15vh;
+          z-index: 2;
+
+          &_leftWheel {
+            position: relative;
+            width: 1.48vh;
+            height: 1.48vh;
+
+            background: url(../public/images/Header_car_wheel.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            z-index: 2;
+          }
+
+          &_leftTire {
+            position: absolute;
+            bottom: -0.2vh;
+            left: 2.45vh;
+            width: 2.8vh;
+            height: 2.5vh;
+            background: url(../public/images/Header_car_wheel_left.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            z-index: 1;
+          }
+
+          &_rightWheel {
+            position: relative;
+            width: 1.48vh;
+            height: 1.48vh;
+
+            background: url(../public/images/Header_car_wheel.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            z-index: 2;
+          }
+          &_rightTire {
+            position: absolute;
+            bottom: -0.2vh;
+            right: 1.55vh;
+            width: 2.8vh;
+            height: 2.5vh;
+            background: url(../public/images/Header_car_wheel_right.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            z-index: 1;
+          }
+        }
+      }
+    }
+  }
+}
+
+.header {
+  height: 95vh;
+
+  // width: calc(100vw + 1270px);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  grid-area: header;
+  background-color: brown;
+  background: url(../public/images/Header_long_repeat.jpg);
+
+  background-size: 1270px 81vh;
+  background-repeat: repeat-x;
+  background-position: 100% 0;
+  z-index: 0;
+
+  &::after {
+    box-shadow: inset -15px -20px 151px -18px rgba(0, 0, 0, 0.68);
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .quoteButton {
+    width: 100%;
+    position: relative;
+  }
+}
